@@ -1,0 +1,31 @@
+{
+    "name": "Workflow_New_Project",
+    "version": "1.0.0",
+    "description": "Workflow para novos projetos.",
+    "author": "Anizio Queiroz <anizioq@gmail.com>",
+    "homepage": "https://github.com/anizioQ/Workflow_New_Project#readme",
+    "keywords": [
+        "node",
+        "workflow"
+    ],
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "lint": "eslint src/**/*.js --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anizioQ/Workflow_New_Project"
+    },
+    "bugs": {
+        "url": "https://github.com/anizioQ/Workflow_New_Project/issues"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "5.16.0",
+        "eslint-config-prettier": "4.3.0",
+        "eslint-plugin-prettier": "3.1.0",
+        "prettier": "1.17.1"
+    },
+    "license": "MIT"
+}
